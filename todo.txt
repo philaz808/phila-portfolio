@@ -1,0 +1,2 @@
+menu bar(about,qualification,download)
+add profile pic(center)

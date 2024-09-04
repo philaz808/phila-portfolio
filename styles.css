@@ -1,0 +1,48 @@
+body{
+    background-color: hsl(240, 19%, 14%);
+}
+
+#headerid{
+    display: flex;
+    background-color: brown;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    color: whitesmoke;
+   
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline;
+  }
+
+
+#headerid a{
+
+    padding: 5px 10px;
+    margin-left: 10px;
+   color: whitesmoke;
+}
+
+
+#headerid h3{
+    margin: 0;
+    
+}
+
+img{
+    width: 200px;
+    height: auto;
+    border-radius: 50px;
+}
+
+#pic{
+    text-align: center;
+    margin-top: 50px;
+}
