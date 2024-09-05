@@ -1,6 +1,83 @@
 body{
     background-color: hsl(240, 19%, 14%);
 }
+.qualify{
+    text-align: center;
+}
+#experience{
+    background-color: goldenrod;
+  
+    display: flex;
+    justify-content: center;
+}
+
+.myicons{
+
+    text-align: center;
+ 
+}
+
+.exdiv{
+    background-color: darksalmon;
+    width: 400px;
+    height: 400px;
+    margin: 0 40px;
+}
+
+i{
+    margin: 0 25px;
+    margin-top: 20px;
+    color: aqua;
+    font-size: 3rem; 
+}
+
+#intro p{
+    position: relative;
+    margin: 40px;
+    margin-right: 40px;
+    background-color: darkkhaki;
+
+}
+#skills{
+    display: flex;
+    overflow:auto;
+    background-color: rgb(27, 147, 147);
+    padding: auto;
+    margin: 80px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    
+}
+
+/* display: flex;
+    flex-direction: column; /* Stack items vertically */
+    /* align-items: center; /* Center items horizontally */
+    /* text-align: center; */ */ */
+
+#skills img{
+    display: flex;
+    position: static;
+    padding: auto;
+}
+
+#pic1{
+    display: flex;
+    align-items: center;
+}
+
+
+#about_me{
+    height: 20vh;
+    text-align: center;
+}
+
+.footer{
+    position: static;
+    left: 0;
+    bottom: 0;
+    background-color: brown;
+}
 
 #headerid{
     display: flex;
@@ -37,12 +114,14 @@ ul {
 }
 
 img{
+    
     width: 200px;
     height: auto;
     border-radius: 50px;
 }
 
 #pic{
+    height: 35vh;
     text-align: center;
     margin-top: 50px;
 }
